@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "plugin": "strapi install migrate"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^29.1.0",
@@ -25,6 +26,7 @@
     "strapi-plugin-email": "3.6.6",
     "strapi-plugin-graphql": "3.6.6",
     "strapi-plugin-i18n": "3.6.6",
+    "strapi-plugin-migrate": "^3.6.3",
     "strapi-plugin-upload": "3.6.6",
     "strapi-plugin-users-permissions": "3.6.6",
     "strapi-utils": "3.6.6"

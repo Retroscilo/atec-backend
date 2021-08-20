@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_dossier_s",
+  "info": {
+    "name": "dossier_",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "nom_du_dossier": {
+      "type": "string"
+    },
+    "fichiers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.file"
+    }
+  }
+}

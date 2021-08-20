@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_agence_sections",
+  "info": {
+    "name": "agenceSections",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "left": {
+      "type": "boolean"
+    }
+  }
+}

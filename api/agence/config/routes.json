@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/agence",
+      "handler": "agence.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/agence",
+      "handler": "agence.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/agence",
+      "handler": "agence.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

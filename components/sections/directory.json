@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_directories",
+  "info": {
+    "name": "dossier",
+    "icon": "folder-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nom_du_dossier": {
+      "type": "string"
+    },
+    "fichiers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.file"
+    },
+    "dossier_": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.dossier"
+    }
+  }
+}

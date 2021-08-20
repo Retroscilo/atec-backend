@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_realisations_sections",
+  "info": {
+    "name": "realisationsSections",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "covers": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "left": {
+      "type": "boolean"
+    }
+  }
+}

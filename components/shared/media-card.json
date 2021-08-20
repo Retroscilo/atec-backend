@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_media_cards",
+  "info": {
+    "name": "mediaCard",
+    "icon": "broom"
+  },
+  "options": {},
+  "attributes": {
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

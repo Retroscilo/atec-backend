@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "realisations",
+  "info": {
+    "name": "realisations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.header"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.realisations-sections"
+      ]
+    }
+  }
+}

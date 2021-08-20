@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_navs",
+  "info": {
+    "name": "Nav",
+    "icon": "map-signs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "pages": {
+      "collection": "pages"
+    }
+  }
+}

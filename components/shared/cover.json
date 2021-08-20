@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_covers",
+  "info": {
+    "name": "cover",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Legend": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Subtitle": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_decoration_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "hero_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext",
+      "default": "L'agence ATEC, Bureau d’économie de la construction, d'Asistant à Maîtrise d'Ouvrage et de coordination des travaux dans les projets de construction neuves et de réhabilitation de tous bâtiments à usage professionnel ou d’habitation."
+    }
+  }
+}

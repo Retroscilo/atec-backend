@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_files",
+  "info": {
+    "name": "fichier",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fichier_a_partager": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "mot_de_passe": {
+      "type": "password"
+    },
+    "nom_du_fichier": {
+      "type": "string"
+    }
+  }
+}

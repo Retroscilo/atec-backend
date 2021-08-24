@@ -1,16 +1,16 @@
-module.exports = {
+module.exports = ({ env }) => ({
   upload: {
     provider: "exoscale",
     providerOptions: {
-      accessKeyId: "EXO041cc5cd8e0ee5e83243d717",
-      secretAccessKey: "sUhactykOmCQHWVRkPYnhxE-H0_F_dJBNAC-On63A6I",
-      region: "CH-GVA-2",
+      accessKeyId: env("EXO041cc5cd8e0ee5e83243d717"),
+      secretAccessKey: env("sUhactykOmCQHWVRkPYnhxE-H0_F_dJBNAC-On63A6I"),
+      region: env("CH-GVA-2"),
       params: {
-        Bucket: "atec",
+        Bucket: env("atec"),
       },
     },
   },
-};
+});
 
 /* module.exports = {
   upload: {

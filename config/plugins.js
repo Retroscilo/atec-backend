@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
   upload: {
     provider: "exoscale",
     providerOptions: {
@@ -10,6 +10,6 @@ module.exports = {
       },
     },
   },
-};
+});
 
 

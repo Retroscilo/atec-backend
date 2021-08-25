@@ -14,11 +14,6 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.file"
-    },
-    "dossier_": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.dossier"
     }
   }
 }

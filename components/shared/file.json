@@ -21,9 +21,6 @@
     },
     "nom_du_fichier": {
       "type": "string"
-    },
-    "mot_de_passe": {
-      "type": "string"
     }
   }
 }

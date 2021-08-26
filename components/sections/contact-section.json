@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_contact_sections",
+  "info": {
+    "name": "contactSection",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    }
+  }
+}

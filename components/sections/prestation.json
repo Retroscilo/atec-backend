@@ -2,14 +2,12 @@
   "collectionName": "components_sections_prestations",
   "info": {
     "name": "prestation",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "titre": {
-      "type": "string"
-    },
-    "descriptif": {
       "type": "string"
     },
     "cover": {
@@ -23,6 +21,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "descriptif": {
+      "type": "richtext"
     }
   }
 }

@@ -10,8 +10,14 @@
     "titre": {
       "type": "string"
     },
+    "descriptif": {
+      "type": "richtext"
+    },
+    "left": {
+      "type": "boolean"
+    },
     "cover": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -21,9 +27,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "descriptif": {
-      "type": "richtext"
     }
   }
 }

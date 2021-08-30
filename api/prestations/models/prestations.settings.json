@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "prestations",
   "info": {
-    "name": "Prestations"
+    "name": "Prestations",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -20,6 +21,12 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.header"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.prestation"
+      ]
     }
   }
 }

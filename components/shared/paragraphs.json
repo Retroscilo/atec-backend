@@ -2,12 +2,13 @@
   "collectionName": "components_shared_paragraphs",
   "info": {
     "name": "paragraphs",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "paragraph": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

@@ -13,9 +13,6 @@
     "descriptif": {
       "type": "richtext"
     },
-    "left": {
-      "type": "boolean"
-    },
     "cover": {
       "model": "file",
       "via": "related",
@@ -27,6 +24,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "clipPath": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_paragraphs",
+  "info": {
+    "name": "paragraphs",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph": {
+      "type": "string"
+    }
+  }
+}

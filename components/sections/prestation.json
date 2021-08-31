@@ -27,6 +27,11 @@
     },
     "clipPath": {
       "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.paragraphs"
     }
   }
 }

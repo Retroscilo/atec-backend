@@ -10,9 +10,6 @@
     "titre": {
       "type": "string"
     },
-    "descriptif": {
-      "type": "richtext"
-    },
     "cover": {
       "model": "file",
       "via": "related",

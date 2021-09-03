@@ -25,7 +25,8 @@
     "content": {
       "type": "dynamiczone",
       "components": [
-        "sections.agence-sections"
+        "sections.agence-sections",
+        "shared.member"
       ]
     }
   }

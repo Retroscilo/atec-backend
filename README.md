@@ -1,3 +1,4 @@
 # Strapi application
 
-A quick description of your strapi application
+Backend for atec Agency.
+Site is live here: https://atec.agency
